@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/home_icon"
+        android:title="홈"
+        />
+
+    <item
+        android:id="@+id/nav_reserve"
+        android:icon="@drawable/reserve_icon"
+        android:title="예약" />
+
+    <item
+        android:id="@+id/nav_myinfo"
+        android:icon="@drawable/user"
+        android:title="마이페이지" />
+    <item
+        android:id="@+id/nav_pay"
+        android:icon="@drawable/pay"
+        android:title="결제" />
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/user"
+        android:title="안내" />
+
+
+
+</menu>

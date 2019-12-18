@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ku_nav"
+    app:startDestination="@+id/nav_main">
+
+
+
+    <fragment
+        android:id="@+id/nav_main"
+        android:name="com.example.ku_care.ui.main.main_main"
+        android:label="nav_main"
+        tools:layout="@layout/main_main"
+        />
+    <fragment
+        android:id="@+id/nav_reserve"
+        android:name="com.example.ku_care.ui.reserve.reserve_main"
+        android:label="nav_reserve"
+        tools:layout="@layout/reserve_main"
+        />
+    <fragment
+        android:id="@+id/nav_myinfo"
+        android:name="com.example.ku_care.ui.myinfo.myinfo_main"
+        android:label="nav_reserve"
+        tools:layout="@layout/myinfo_main"
+        />
+    <fragment
+        android:id="@+id/nav_pay"
+        android:name="com.example.ku_care.ui.pay.pay_main"
+        android:label="nav_pay"
+        tools:layout="@layout/pay_main"
+        />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.ku_care.ui.info.info_main"
+        android:label="nav_info"
+        tools:layout="@layout/info_main" />
+<!--    <navigation
+        android:id="@+id/nav_reserve_group"
+        app:startDestination="@id/nav_reserve" >
+
+        -->
+
+    <!--</navigation>
+-->
+
+</navigation>

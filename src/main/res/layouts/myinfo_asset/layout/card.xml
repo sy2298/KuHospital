@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="270sp"
+        android:background="@drawable/border2"
+
+        android:orientation="vertical" android:id="@+id/paytemps"
+        android:padding="10dp">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="10sp"
+            android:clickable="false"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginVertical="6dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="60dp" android:id="@+id/pay_day"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+
+                android:text="2018 22 11일"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/pay0"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="60dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="가정의학과"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_marginHorizontal="20sp"
+            android:background="#F52D2D2E"
+            android:backgroundTint="#D7797373" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="6"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="진료비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="검사비"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="기타"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="총 결제금액"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pay1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:text="20000원"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:text="20000원"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right"
+                    android:text="20000원"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/pay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#F7EDB3"
+                    android:gravity="center_vertical|right"
+                    android:text="20000원"
+                    android:textColor="#F8CA7373"
+                    android:textColorHint="#2B2B2B"
+                    android:textColorLink="#EAF2FA"
+                    android:textIsSelectable="false"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent" android:text="" android:id="@+id/paytype"
+        android:layout_height="3px"  android:visibility="invisible" />
+
+</androidx.cardview.widget.CardView>

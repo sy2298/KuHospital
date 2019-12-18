@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <!--    <LinearLayout-->
+    <!--        android:background="#ffffff"-->
+    <!--        android:layout_gravity="center_vertical"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content">-->
+    <!--        <ImageButton-->
+    <!--            android:background="#ffffff"-->
+    <!--            android:id="@+id/back_btn"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:layout_marginLeft="15dp"-->
+    <!--            android:layout_width="30dp"-->
+    <!--            android:layout_height="30dp"-->
+    <!--            android:src="@drawable/left"/>-->
+    <!--        <TextView-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:id="@+id/dept_name"-->
+    <!--            android:text="'허리디스크'"-->
+    <!--           android:layout_marginLeft="120dp"-->
+    <!--            android:layout_marginTop="20dp"-->
+    <!--            android:layout_marginBottom="21dp"-->
+    <!--            android:textSize="18sp">-->
+    <!--        </TextView>-->
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/border2">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/sort"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="진료횟수순"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/border2"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:background="@drawable/border2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:src="@drawable/d1"
+                    android:id="@+id/doctor_img"
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/waistdoc_name"
+                            android:layout_margin="10dp"
+                            android:text="이석하"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/count_btn"
+                            android:src="@drawable/ic_local_hospital_black_24dp"
+                            android:layout_marginLeft="70dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="진료횟수:88회"
+                            android:layout_marginTop="11dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/waistdoc_info1"
+                        android:layout_marginLeft="10dp"
+                        android:text="[정형외과,스포츠의학센터,척추클리닉]"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/waistdoc_info2"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_profile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:layout_marginRight="15dp"
+                            android:text="프로필"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_register"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:text="진료 예약"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  "
+                        android:textSize="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/border2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:src="@drawable/d2"
+                    android:id="@+id/doctor_img2"
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/d_name2"
+                            android:layout_margin="10dp"
+                            android:text="김태훈"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/count_btn2"
+                            android:src="@drawable/ic_local_hospital_black_24dp"
+                            android:layout_marginLeft="70dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="진료횟수:72회"
+                            android:layout_marginTop="11dp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/waistdoc2_info1"
+                        android:layout_marginLeft="10dp"
+                        android:text="[정형외과,스포츠의학센터]"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/d_info2"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_profile2"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:layout_marginRight="15dp"
+                            android:text="프로필"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_register2"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:text="진료 예약"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  "
+                        android:textSize="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/border2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:src="@drawable/d3"
+                    android:id="@+id/doctor_img3"
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/d_name3"
+                            android:layout_margin="10dp"
+                            android:text="김경진"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/count_btn3"
+                            android:src="@drawable/ic_local_hospital_black_24dp"
+                            android:layout_marginLeft="70dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="진료횟수:60회"
+                            android:layout_marginTop="11dp"/>
+                    </LinearLayout>
+                    <TextView
+                        android:id="@+id/waistdoc3_info1"
+                        android:layout_marginLeft="10dp"
+                        android:text="[허리척추센터,디스크센터]"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/d_info3"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_profile3"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:layout_marginRight="15dp"
+                            android:text="프로필"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_register3"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:text="진료 예약"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  "
+                        android:textSize="20dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/border2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:src="@drawable/d4"
+                    android:id="@+id/doctor_img4"
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/waistdoc4_name"
+                            android:layout_margin="10dp"
+                            android:text="엄정호"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/count_btn4"
+                            android:src="@drawable/ic_local_hospital_black_24dp"
+                            android:layout_marginLeft="70dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="진료횟수:58회"
+                            android:layout_marginTop="11dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/waistdoc4_info1"
+                        android:layout_marginLeft="10dp"
+                        android:text="[정형외과]"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/waistdoc4_info2"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_profile4"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:layout_marginRight="15dp"
+                            android:text="프로필"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_register4"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:text="진료 예약"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  "
+                        android:textSize="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:src="@drawable/d5"
+                    android:id="@+id/doctor_img5"
+                    android:layout_margin="10dp"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/waistdoc5_name"
+                            android:layout_margin="10dp"
+                            android:text="강동규"
+                            android:textSize="16sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                        <ImageButton
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/count_btn5"
+                            android:src="@drawable/ic_local_hospital_black_24dp"
+                            android:layout_marginLeft="70dp"
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="진료횟수:32회"
+                            android:layout_marginTop="11dp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/waistdoc5_info1"
+                        android:layout_marginLeft="10dp"
+                        android:text="[정형외과]"
+                        android:textColor="#000000"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/waistdoc5_info2"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_profile5"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:layout_marginRight="15dp"
+                            android:text="프로필"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                        <Button
+                            android:background="@drawable/border4"
+                            android:id="@+id/d_register5"
+                            android:layout_weight="2"
+                            android:textSize="13sp"
+                            android:text="진료 예약"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  "
+                        android:textSize="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

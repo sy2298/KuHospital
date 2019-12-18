@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ku_care.ui.info.info_phone">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/textView"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginTop="15dp"-->
+            <!--            android:layout_marginLeft="15dp"-->
+            <!--            android:textSize="20dp"-->
+            <!--            android:text="전화번호 안내"-->
+            <!--            android:textStyle="bold"/>-->
+
+
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="대표전화"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1588-1533"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="팩스번호"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-5009"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="온라인증명서"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="34dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="070-8656-1176"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"/>
+            </LinearLayout>
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="입원수속"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-7171"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="퇴원수속"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginLeft="70dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-7173"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="응급의료센터"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="34dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-5555"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="헬스케어센터"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="34dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-5700"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="진료협력센터"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="15dp"/>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/phone"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="34dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="02-2030-7080"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="18dp"/>
+            </LinearLayout>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="2dp"/>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.ku_care.ui.">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="360dp"
+                android:layout_height="220dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/map" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="주소: 서울특별시 광진구 능동로 120-1(화양동) \n건국대학교병원"
+                android:textSize="17dp"
+                android:gravity="center"/>
+
+            <View
+                android:background="#BDBDBD"
+                android:layout_width="350dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:layout_height="2dp"/>
+
+
+            <!--    <ScrollView-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="match_parent">-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/subway_icon"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지하철"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/oval"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="'건대입구역' 2번 출구"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="2dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/oval2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="7호선'건대입구역' 3,4번 출구"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bus_icon"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="버스"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textSize="17dp"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="간"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/oval_blue"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="240,721\n건대입구역사거리.건대병원 하차"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="지"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/oval_mint"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="'2016,2222,3220,3217,4212,2224\n건대입구역사거리.건대병원 하차"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="광"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/oval_red"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="'102성남,1002성남,3500포천\n건대입구역사거리.건대병원 하차"
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <!--        </ScrollView>-->
+
+
+
+
+
+
+</FrameLayout>

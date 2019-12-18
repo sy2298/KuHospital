@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Ku_care.iml" filepath="$PROJECT_DIR$/../Ku_care.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lastKu-Ku_care.iml" filepath="$PROJECT_DIR$/../lastKu-Ku_care.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lastKu-app.iml" filepath="$PROJECT_DIR$/lastKu-app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".ui.reserve.register1">
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:text="날짜 선택"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:id="@+id/date_line"
+            android:padding="10dp"
+            android:orientation="horizontal"
+            android:background="#0A221515"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageView
+                android:src="@drawable/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:id="@+id/date_pick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/ic_arrow_drop_down_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+        <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:text="휴대폰번호"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <EditText
+            android:hint="   상담 받으실 전화번호를 입력해주세요"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/border2"
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+                 android:layout_margin="20dp"
+                android:textSize="20sp"
+                android:text="검진 구분"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <RadioButton
+                    android:id="@+id/check00"
+                    android:text=" 개인 건강검진"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+            <RadioButton
+                    android:id="@+id/check01"
+                    android:text=" 기업 건강검진"
+                    android:textSize="18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"/>
+        </RadioGroup>
+        <Button
+                android:text="검진 예약"
+                android:textSize="18sp"
+                android:background="#0D47A1"
+                android:textColor="#ffffff"
+                android:id="@+id/reg_btn"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

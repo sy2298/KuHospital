@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    tools:context=".ui.pay.pay_card_page_2"-->
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical" android:layout_height="wrap_content" android:layout_margin="10dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal" android:layout_height="60dp" android:layout_weight="1" >
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent" android:layout_weight="4" android:hint="차량번호를 등록해주세요" android:id="@+id/carpaytext"/>
+                <Button
+                    android:layout_width="0dp" android:layout_weight="1"
+                    android:layout_height="match_parent" android:text="찾기" android:textSize="17dp" android:id="@+id/carpaybtn" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/carpayresult"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:layout_marginTop="10dp" android:visibility="gone"
+                android:gravity="center_vertical"
+                android:paddingLeft="30dp"
+                android:text="여기"
+                android:textSize="13dp">
+
+            </TextView>
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp" android:layout_weight="6"
+            android:id="@+id/dView"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+        </androidx.recyclerview.widget.RecyclerView>
+        <Button
+            android:text="결제할 항목을 선택해주세요"
+            android:textSize="18sp"
+            android:background="#0D47A1"
+            android:textColor="#ffffff"
+            android:id="@+id/paybtn"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>
